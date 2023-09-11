@@ -13,6 +13,11 @@ public enum calculoTributos {
         return valor;
     }
 
+    @Override
+    public String toString() {       
+        return super.toString();
+    }
+
   
     
 }

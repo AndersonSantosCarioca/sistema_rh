@@ -16,7 +16,7 @@ public abstract class Funcionario extends Pessoa{
         this.cargo = cargo;
     }
     String ctps;
-    String cargo;
+    protected String cargo;
     public Funcionario(String nome, String cpf, String endereco, int telefone, Date dataNascimento, String ctps,
             String cargo) {
         super(nome, cpf, endereco, telefone, dataNascimento);

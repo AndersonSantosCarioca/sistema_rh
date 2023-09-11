@@ -12,6 +12,11 @@ public enum CalculoSalario {
     public double getSalario() {
         return salario;
     }
+
+    @Override
+    public String toString() {        
+        return super.toString();
+    }
 }
 
 
