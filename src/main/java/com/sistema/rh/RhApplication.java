@@ -9,6 +9,7 @@ public class RhApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RhApplication.class, args);
 
+		System.out.println("Testando aplicação!");
 		
 	}
 

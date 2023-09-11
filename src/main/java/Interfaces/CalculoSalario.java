@@ -1,7 +1,6 @@
 package Interfaces;
 import java.util.Scanner;
 
-import javax.sound.midi.Soundbank;
 
 
 public interface CalculoSalario {
@@ -20,20 +19,22 @@ public interface CalculoSalario {
         public CalcularSalarioFuncionario(String cargoFuncionario) {
             this.cargoFuncionario = cargoFuncionario;
 
-            int escolha;
+           
 
             System.out.println("Digite o cargo do funcionário: ");
             System.out.println("(1)Atendente\n,(2)Supervisor\n,(3)Gerente");
+            int escolha ;
 
-            switch (escolha) {
+            switch(escolha) {
                 case 1:
-                    System.out.println();
+                    System.out.println("dd");
                     break;
                 case 2:
-                    System.out.println();
+                    System.out.println("ddd");
+                    break;
                 case 3:
-                    System.out.println();
-            
+                    System.out.println("ghgh");
+                    break;            
                 default:
                     System.out.println("Funcionário não cadastrado.");
                     break;
